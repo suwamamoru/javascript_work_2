@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>FizzBuzz問題</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+  </head>
+  <body>
+    <h1>FizzBuzz問題</h1>
+    <form>
+      <table>
+        <tr>
+          <td><label>FizzNum:</label></td>
+          <td><input class="number" id="itgFizz" placeholder="整数値を入力してください"></td>
+        </tr>
+        <tr>
+          <td><label>BuzzNum:</label></td>
+          <td><input class="number" id="itgBuzz" placeholder="整数値を入力してください"></td>
+        </tr>
+      </table>
+      <input type="button" value="実行" onclick="clickbtn()">
+    </form>
+    <h2>【出力】</h2>
+    <ul>
+      <li id="list"></li>
+    </ul>
+    <script src="src/fizzbuzz.js"></script>
+  </body>
+</html>
